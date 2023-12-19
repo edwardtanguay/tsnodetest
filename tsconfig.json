@@ -1,11 +1,12 @@
 {
 	"compilerOptions": {
-		"esModuleInterop": true,
-		"module": "ES2020",
-		"sourceMap": true
+		"sourceMap": false,
+		"outDir": "dist",
+		"strict": false,
+		"lib": [
+			"esnext"
+		],
+		"esModuleInterop": true
 	},
-	"ts-node": {
-		"esm": true,
-		"experimentalSpecifierResolution": "node"
-	}
+	"include": ["backend/**/*.ts"]
 }

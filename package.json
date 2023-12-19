@@ -5,12 +5,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "cc": "ts-node --project tsconfig.json backend/cc.ts"
+    "cc": "tsx backend/cc.ts",
+    "build": "tsc",
+    "start": "node dist/cc.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
   }
 }
