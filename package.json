@@ -6,16 +6,19 @@
   "main": "index.js",
   "scripts": {
     "cc": "tsx backend/cli/create-component.ts",
+    "dev": "tsx backend/api/index.ts",
     "build": "tsc -p ./backend/tsconfig.json",
-    "start": "node dist/cli/create-component.js"
+    "start": "node dist/api/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "tsx": "^4.7.0"
   }
 }
