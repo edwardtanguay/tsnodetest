@@ -2,9 +2,10 @@
   "name": "tsnodetest",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "cc": "ts-node backend/cc.ts"
+    "cc": "ts-node --project tsconfig.json backend/cc.ts"
   },
   "keywords": [],
   "author": "",

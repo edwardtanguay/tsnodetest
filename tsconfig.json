@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"module": "ES2020",
+		"sourceMap": true
+	},
+	"ts-node": {
+		"esm": true,
+		"experimentalSpecifierResolution": "node"
+	}
+}
