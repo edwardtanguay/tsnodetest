@@ -7,7 +7,7 @@
   "scripts": {
     "cc": "tsx backend/cli/create-component.ts",
     "dev": "tsx backend/api/index.ts",
-    "build": "tsc -p ./backend/tsconfig.json",
+    "build": "tsc -p backend/tsconfig.json",
     "start": "node dist/api/index.js"
   },
   "keywords": [],
