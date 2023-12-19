@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "cc": "tsx backend/cc.ts",
-    "build": "tsc",
+    "build": "tsc -p ./backend/tsconfig.json",
     "start": "node dist/cc.js"
   },
   "keywords": [],
