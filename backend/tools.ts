@@ -1,3 +1,3 @@
-export const getData = () => {
-	return 'nnn';
+export const getData = (text: string) => {
+	return '>>> ' + text.toUpperCase();
 }

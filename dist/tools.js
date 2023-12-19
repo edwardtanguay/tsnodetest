@@ -1,4 +1,3 @@
-export const getData = () => {
-    return 'nnn';
+export const getData = (text) => {
+    return '>>> ' + text.toUpperCase();
 };
-//# sourceMappingURL=tools.js.map

@@ -1,3 +1,3 @@
 import * as tools from './tools.js';
 
-console.log(tools.getData());
+console.log(tools.getData('testing'));
