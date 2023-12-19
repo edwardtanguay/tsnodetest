@@ -5,9 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "cc": "tsx backend/cc.ts",
+    "cc": "tsx backend/cli/create-component.ts",
     "build": "tsc -p ./backend/tsconfig.json",
-    "start": "node dist/cc.js"
+    "start": "node dist/cli/create-component.js"
   },
   "keywords": [],
   "author": "",
